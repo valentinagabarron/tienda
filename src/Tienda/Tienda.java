@@ -13,9 +13,15 @@ Realizamos las siguientes acciones:
 
 public class Tienda {
 
-
-
     public static void main(String[] args) {
+        OperacionesStock op = new OperacionesStock();
+        Producto product = new Producto();
 
+        // nombre
+        product.setNombre("cereales");
+        // stock
+        product.setCantidad(1);
+        //agrego el producto
+        op.agregarProducto(product);
     }
 }

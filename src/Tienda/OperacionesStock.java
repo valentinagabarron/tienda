@@ -1,6 +1,7 @@
 package Tienda;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /*Queremos llevar un seguimiento de stock de unos productos.
 
@@ -27,6 +28,9 @@ public class OperacionesStock {
             }
         }
     }
+
+
+
 
     public void eliminarStock(String nombreProduct) {
         for (Producto producto: productos) {
